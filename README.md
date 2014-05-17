@@ -22,13 +22,18 @@ To change the policy from whitelist to blacklist, try this:
 
 Take a look at the output from `heroku config` to see what other configs are set. Some details on what has already been set (some defined by [Slack](http://slack.com) configs, others by specific script requirements):
 
-* `HEROKU_URL`: prevents the app from sleeping automatically (Heroku apps wind down by default for the unpaid/free tier)
-* `HEROKU_BITLY_ACCESS_TOKEN`: used for [bitly](http://bit.ly) API (`bitly.coffee`)
-* `HEROKU_GIPHY_API_KEY`: used for [gifphy](http://giphy.com) API (`giphy.coffee`)
-* `HEROKU_ROTTEN_TOMATOES_API_KEY`: API key, blah blah
-* `HEROKU_SLACK_BOTNAME`: what the bot responds to in channels
-* `HEROKU_SLACK_CHANNELMODE`: whitelist or blacklist
-* `HEROKU_SLACK_CHANNELS`: channels to apply `CHANNELMODE`
-* `HEROKU_SLACK_TEAM`: team recognized by Slack
-* `HEROKU_SLACK_TOKEN`: unique token generated from Slack integrations
-* `REDISCLOUD_URL`: [RedisCloud](https://addons.heroku.com/rediscloud) addon for a free tier of Redis storage (`redis-brain.coffee`)
+| Config | Description | Owner* |
+|--------|-------------|-------|
+| `HEROKU_URL` | prevents the app from sleeping automatically (Heroku apps wind down by default for the unpaid/free tier) | `none` |
+| `HEROKU_SLACK_BOTNAME` | what the bot responds to in channels | `none` |
+| `HEROKU_SLACK_CHANNELMODE` | whitelist or blacklist | `none` |
+| `HEROKU_SLACK_CHANNELS` | channels to apply `CHANNELMODE` | `none` |
+| `HEROKU_SLACK_TEAM` | team recognized by Slack | `none` |
+| `HEROKU_SLACK_TOKEN` | unique token generated from Slack integrations | `none` |
+| `REDISCLOUD_URL` | [RedisCloud](https://addons.heroku.com/rediscloud) addon for a free tier of Redis storage (`redis-brain.coffee`) | `none` |
+| `HEROKU_BITLY_ACCESS_TOKEN` | used for [bitly](http://bit.ly) API (`bitly.coffee`) | Ben |
+| `HEROKU_GIPHY_API_KEY` | used for [gifphy](http://giphy.com) API (`giphy.coffee`) | Ben |
+| `HEROKU_ROTTEN_TOMATOES_API_KEY` | API key, blah blah | Ben |
+
+\* Owner is the person you should contact regarding a particular config because the actual value was added by him/her and may be owned by a personal account
+
