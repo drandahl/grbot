@@ -2,8 +2,12 @@
 #   Custom commands for bp_hubot
 #
 # Commands:
-#   bird.*word - did you hear?
+#   bird word - did you hear?
+#   release - release MONSTERRRR
 
 module.exports = (robot) ->
   robot.hear /bird.*word/i, (msg) ->
     msg.send "http://youtu.be/2WNrx2jq184"
+
+  robot.hear /release/i, (msg) ->
+    msg.send "༼ つ ◕_◕ ༽つ༄"
