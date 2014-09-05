@@ -4,6 +4,7 @@
 # Commands:
 #   bird word - did you hear?
 #   release - release MONSTERRRR
+#   hubot who is in charge? - tags the user who owns me
 
 module.exports = (robot) ->
   robot.hear /bird.*word/i, (msg) ->
@@ -11,3 +12,7 @@ module.exports = (robot) ->
 
   robot.hear /release/i, (msg) ->
     msg.send "༼ つ ◕_◕ ༽つ༄"
+
+  robot.respond /who is in charge\?/i, (msg) ->
+    msg.send "@djackson"
+    
