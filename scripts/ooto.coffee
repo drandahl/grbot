@@ -8,13 +8,16 @@
 #   None
 #
 # Commands:
-#   ooto list - lists everyone who's ooto
-#   ooto add <msg> - sets you as ooto
-#   ooto edit <msg> - changes away msg
-#   ooto back - sets you as back from ooto
-#   ooto mymsgs - checks all your away msgs (if you're listed as ooto)
-#   ooto msg <user> <msg> - sends msg to user if they're away
-#   ooto help - shows this help
+#   hubot ooto list - lists everyone who's ooto
+#   hubot ooto add <msg> - sets you as ooto
+#   hubot ooto edit <msg> - changes away msg
+#   hubot ooto back - sets you as back from ooto
+#   hubot ooto mymsgs - checks all your away msgs (if you're listed as ooto)
+#   hubot ooto msg <user> <msg> - sends msg to user if they're away
+#   hubot ooto help - shows this help
+#
+# Author:
+#   flybycai
 
 class UserOOTO
   constructor: (@user, @awayMsg) ->
@@ -37,10 +40,10 @@ module.exports = (robot) ->
 
   printUserMessages = (user, msg) ->
     if usersAway[user].getUserMessages().length == 0
-      msg.reply "You have not received any messages :("
+      msg.send "You have not received any messages :("
     else
       for m in usersAway[user].getUserMessages()
-        msg.reply m["user"] + " says: " + m["message"]
+        msg.send m["user"] + " says: " + m["message"]
 
   robot.respond /ooto (\S+) (.*\S.*)/i, (msg) ->
     currentUser = msg.message.user.name.toLowerCase()
@@ -67,12 +70,12 @@ module.exports = (robot) ->
     cmd = msg.match[1]
     switch cmd
       when "list"
-        msg.reply "All OOTO users and their away messages:"
+        msg.send "All OOTO users and their away messages:"
         if Object.keys(usersAway).length == 0
-          msg.reply "Nobody is OOTO!"
+          msg.send "Nobody is OOTO!"
         else
           for user, ooto of usersAway
-            msg.reply user + ": " + ooto.getMessage()
+            msg.send user + ": " + ooto.getMessage()
       when "back"
         if usersAway[currentUser]
           msg.reply "Welcome back! Here are all the messages you received while you were ooto:"
@@ -83,21 +86,21 @@ module.exports = (robot) ->
           msg.reply "You are not marked as OOTO! To add a new OOTO message, use 'ooto add <msg>'"
       when "mymsgs"
         if usersAway[currentUser]
-          msg.reply "All messages received while you were ooto:"
+          msg.send "All messages received while you were ooto:"
           printUserMessages currentUser, msg
         else
           msg.reply "You are not marked as OOTO! To add a new OOTO message, use 'ooto add <msg>'"
       when "help"
         helpMsg = """
-          ooto add <msg> - sets you as ooto
-          ooto edit <msg> - changes your ooto msg
-          ooto back - sets you as back from ooto
-          ooto mymsgs - checks all your away msgs (if you're listed as ooto)
-          ooto msg <user> <msg> - sends msg to user if they're away
-          ooto list - lists everyone who's ooto
-          ooto help - shows this help
+          grbot ooto add <msg> - sets you as ooto
+          grbot ooto edit <msg> - changes your ooto msg
+          grbot ooto back - sets you as back from ooto
+          grbot ooto mymsgs - checks all your away msgs (if you're listed as ooto)
+          grbot ooto msg <user> <msg> - sends msg to user if they're away
+          grbot ooto list - lists everyone who's ooto
+          grbot ooto help - shows this help
           """
-        msg.reply helpMsg
+        msg.send helpMsg
 
   robot.respond /ooto msg (\S+) (.*\S.*)/i, (msg) ->
     currentUser = msg.message.user.name.toLowerCase()
@@ -105,7 +108,12 @@ module.exports = (robot) ->
     message = msg.match[2]
     if usersAway[user]
       usersAway[user].addUserMessage currentUser, message
-      msg.reply "Your message to " + user + " has been recorded: " + message
+      msg.send "Your message to " + user + " has been recorded: " + message
     else
-      msg.reply "No user found who is OOTO with that name! To see a list of all OOTO users, " +
+      msg.send "No user found who is OOTO with that name! To see a list of all OOTO users, " +
           "use 'ooto list'"
+
+  robot.hear /@(\S+)/, (msg) ->
+    user = msg.match[1].toLowerCase()
+    if usersAway[user]
+      msg.send user + " is currently ooto! You can leave them a message using 'ooto msg " + user + " <msg>'"
