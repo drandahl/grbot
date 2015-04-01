@@ -1,16 +1,14 @@
 # Description:
-#   A way to interact with the Google Images API.
+#   April Fools Shenanigans, replacing 'pug bomb' and 'corgi bomb'
 #
 # Commands:
-#   hubot image me <query> - The Original. Queries Google Images for <query> and returns a random top result.
-#   hubot animate me <query> - The same thing as `image me`, except adds a few parameters to try to return an animated GIF instead.
-#   hubot mustache me <url> - Adds a mustache to the specified URL.
-#   hubot mustache me <query> - Searches Google Images for the specified query and mustaches it.
+#   hubot <query> bomb - Gives something else instead of what you asked for.
+#   hubot random bomb <number> - Random images. Maybe used after April Fools.
 
 # Sung to the theme of https://www.youtube.com/watch?v=wusGIl3v044
 pizza = {
-  #Besoz... Put it in the pizza.
-  "Besoz": [
+  #Bezos... Put it in the pizza.
+  "Bezos": [
     "http://www.bloomberg.com/ss/08/09/0929_most_influential/image/jeff_bezos.jpg#.png",
     "http://www.chrisfharvey.com/wp-content/uploads/2012/02/bezos1.jpg#.png",
     "http://www.bloomberg.com/ss/10/02/0225_angel_investors/image/007_jeff_bezos.jpg#.png",
@@ -137,22 +135,6 @@ pizza = {
     "http://upload.wikimedia.org/wikipedia/commons/d/db/Pygoscelis_papua_-Nagasaki_Penguin_Aquarium_-swimming_underwater-8a.jpg",
     "https://viewsfromthesofa.files.wordpress.com/2012/05/penguin.jpg"
   ],
-  #Music... Put it in the pizza.
-  "jazz": [
-    "http://upload.wikimedia.org/wikipedia/commons/0/0e/Louis_Armstrong_restored.jpg",
-    "http://www.localnomad.com/en/blog/wp-content/uploads/2013/10/jazz-notes.jpg",
-    "http://www.thejazzsession.com/wp-content/uploads/2010/05/jazz_standard.jpg"
-  ],
-  "rock": [
-    "http://topwalls.net/wp-content/uploads/2012/02/hard-rock-music-guitar.jpg",
-    "http://i.kinja-img.com/gawker-media/image/upload/s--t_R9qLoc--/c_fit,fl_progressive,q_80,w_636/770815643221531569.jpg",
-    "http://news.bbcimg.co.uk/media/images/59575000/jpg/_59575151_dsc_0622.jpg-version2.jpg"
-  ],
-  "piano": [
-    "http://beckerspianotuning.webs.com/Piano%20keys%20with%20hand.jpg",
-    "http://www.fortepianolessons.com/p6.jpg",
-    "http://johncavacas.com/wp-content/uploads/2012/05/Piano-player-on-Saint-Germain.jpg"
-  ],
   #Disney... Put it in the pizza.
   "Disney": [
     "http://upload.wikimedia.org/wikipedia/en/d/d4/Mickey_Mouse.png",
@@ -176,13 +158,6 @@ pizza = {
     "http://public.media.smithsonianmag.com/legacy_blog/dracula-2.jpg",
     "http://www.chicagonow.com/acrimonious-clown/files/2015/01/the-vampire-diaries-201.jpg"
   ],
-  #Matrix... put it in the pizza.
-  "matrix": [
-    "http://i.ytimg.com/vi/HUSSKWWg-0c/maxresdefault.jpg",
-    "http://theawesomedaily.theawesomedaily.netdna-cdn.com/wp-content/uploads/2015/03/1413474840_Matrix-Wallpapers.jpg",
-    "http://i.huffpost.com/gen/799955/images/o-THE-MATRIX-AND-HINDUISM-facebook.jpg",
-    "http://vignette2.wikia.nocookie.net/matrix/images/d/df/Thematrixincode99.jpg/revision/latest?cb=20140425045724",
-  ],
   #Friendship... Put it in the pizza.
   "ponies": [
     "https://lh3.googleusercontent.com/-a1PMXvONOgs/VLzuAxQTzQI/AAAAAAAB6QY/uLduGHdk-mc/s1600/mylittlehumans.png",
@@ -198,6 +173,13 @@ pizza = {
     "http://th02.deviantart.net/fs70/PRE/f/2014/024/8/5/derpy_hooves_by_zacatron94-d73lulp.png",
     "http://www.gameinformer.com/cfs-filesystemfile.ashx/__key/CommunityServer-Components-PostAttachments/00-01-30-56-31/Link-Derpy.png_2D00_500x400.png"
   ],
+  #Matrix... put it in the pizza.
+  "matrix": [
+    "http://i.ytimg.com/vi/HUSSKWWg-0c/maxresdefault.jpg",
+    "http://theawesomedaily.theawesomedaily.netdna-cdn.com/wp-content/uploads/2015/03/1413474840_Matrix-Wallpapers.jpg",
+    "http://i.huffpost.com/gen/799955/images/o-THE-MATRIX-AND-HINDUISM-facebook.jpg",
+    "http://vignette2.wikia.nocookie.net/matrix/images/d/df/Thematrixincode99.jpg/revision/latest?cb=20140425045724",
+  ],
   #Simpsons... Put it in the pizza.
   "Simpsons": [
     "http://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png",
@@ -205,6 +187,22 @@ pizza = {
     "http://upload.wikimedia.org/wikipedia/en/0/0b/Marge_Simpson.png",
     "http://img2.wikia.nocookie.net/__cb20141025143218/simpsons/images/8/83/Homer_Simpson2.jpg",
     "http://upload.wikimedia.org/wikipedia/en/9/9d/Maggie_Simpson.png"
+  ],
+  #Music... Put it in the pizza.
+  "jazz": [
+    "http://upload.wikimedia.org/wikipedia/commons/0/0e/Louis_Armstrong_restored.jpg",
+    "http://www.localnomad.com/en/blog/wp-content/uploads/2013/10/jazz-notes.jpg",
+    "http://www.thejazzsession.com/wp-content/uploads/2010/05/jazz_standard.jpg"
+  ],
+  "rock": [
+    "http://topwalls.net/wp-content/uploads/2012/02/hard-rock-music-guitar.jpg",
+    "http://i.kinja-img.com/gawker-media/image/upload/s--t_R9qLoc--/c_fit,fl_progressive,q_80,w_636/770815643221531569.jpg",
+    "http://news.bbcimg.co.uk/media/images/59575000/jpg/_59575151_dsc_0622.jpg-version2.jpg"
+  ],
+  "piano": [
+    "http://beckerspianotuning.webs.com/Piano%20keys%20with%20hand.jpg",
+    "http://www.fortepianolessons.com/p6.jpg",
+    "http://johncavacas.com/wp-content/uploads/2012/05/Piano-player-on-Saint-Germain.jpg"
   ]
 }
 
@@ -218,21 +216,27 @@ pizza = {
 #This pizza is made...Yeah!
 
 module.exports = (robot) ->
-  robot.respond /bug bomb( (\d+))?/i, (msg) ->
-    group =  msg.random Object.keys(pizza)
-    msg.send "April Fools! You wanted pugs, but here's some " + group + " instead..."
+  robot.respond /(.*) bomb/i, (msg) ->
+    group = sample(Object.keys(pizza), 1)[0]
     images = sample(pizza[group], 3)
-    msg.send img for img in images
+    msg.send "April Fools! You wanted " + msg.match[1] + "s, but here's some " + group + " instead...\n" + images.join("\n")
+
+# To be used after April Fools (maybe)...
+module.exports = (robot) ->
+  robot.respond /random bomb( (\d+))?/i, (msg) ->
+    count = msg.match[2] || 3
+    group = fisherYates(Object.keys(pizza))[0]
+    images = sample(pizza[group], count)
+    msg.send "Here's some " + group + "...\n" + images.join("\n")
 
 sample = (array, number) ->
-  array.slice(0, number)
   shuffled = fisherYates(array)
   shuffled.slice(0, number)
 
-
+# Shuffles array. Quick hack used in sampling elemenents above.
 # Adapted from the javascript implementation at http://sedition.com/perl/javascript-fy.html
-# Randomizes the order of elements in the passed in array in place.
 fisherYates = (arr) ->
+    arr = arr.slice(0) # clone array
     i = arr.length;
     if i == 0 then return false
 
