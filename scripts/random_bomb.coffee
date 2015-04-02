@@ -1,9 +1,10 @@
 # Description:
-#   April Fools Shenanigans, replacing 'pug bomb' and 'corgi bomb'
+#   Get some random images under a random topic.
 #
 # Commands:
-#   hubot <query> bomb - Gives something else instead of what you asked for.
 #   hubot random bomb <number> - Random images. Maybe used after April Fools.
+
+# Feel free to add to or change things in the pizza and submit a pull request!
 
 # Sung to the theme of https://www.youtube.com/watch?v=wusGIl3v044
 pizza = {
@@ -215,11 +216,11 @@ pizza = {
 #Here it is, ready to serve.
 #This pizza is made...Yeah!
 
-module.exports = (robot) ->
-  robot.respond /(.*) bomb/i, (msg) ->
-    group = sample(Object.keys(pizza), 1)[0]
-    images = sample(pizza[group], 3)
-    msg.send "April Fools! You wanted " + msg.match[1] + "s, but here's some " + group + " instead...\n" + images.join("\n")
+# module.exports = (robot) ->
+#   robot.respond /(.*) bomb/i, (msg) ->
+#     group = sample(Object.keys(pizza), 1)[0]
+#     images = sample(pizza[group], 3)
+#     msg.send "April Fools! You wanted " + msg.match[1] + "s, but here's some " + group + " instead...\n" + images.join("\n")
 
 # To be used after April Fools (maybe)...
 module.exports = (robot) ->
