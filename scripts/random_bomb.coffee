@@ -25,6 +25,7 @@ pizza = {
     "http://www.teknorazzi.com/wp-content/uploads/2009/10/no-kindle-for-you-jeff-bezos.jpg#.png",
     "https://pbs.twimg.com/media/CDTamKEWYAADyT5.jpg:large",
     "http://media.salon.com/2011/12/jeff-bezos.jpg",
+    "http://1.bp.blogspot.com/-tCuyMgo93pc/VFpZXI3FlcI/AAAAAAAAAU0/h5pGowsqhpM/s1600/bezosFinalv2.jpg",
     ":laugh4: :laugh: :laugh4: :laugh: :laugh4: :laugh: :laugh4:",
     ":laugh: :laugh2: :laugh: :laugh2: :laugh: :laugh2: :laugh:",
     ":laugh3: :areyouseriousrightnowbro: :laugh3: :areyouseriousrightnowbro: :laugh3: :areyouseriousrightnowbro: :laugh3:",
