@@ -227,7 +227,19 @@ pizza = {
 module.exports = (robot) ->
   robot.respond /random bomb( (\d+))?/i, (msg) ->
     count = msg.match[2] || 3
+    if count > 5
+      count = 5
     group = fisherYates(Object.keys(pizza))[0]
+    images = sample(pizza[group], count)
+    msg.send "Here's some " + group + "...\n" + images.join("\n")
+
+# To be used after April Fools (maybe)...
+module.exports = (robot) ->
+  robot.respond /bezos bomb( (\d+))?/i, (msg) ->
+    count = msg.match[2] || 3
+    if count > 5
+      count = 5
+    group = "Bezos"
     images = sample(pizza[group], count)
     msg.send "Here's some " + group + "...\n" + images.join("\n")
 
