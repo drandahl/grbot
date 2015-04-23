@@ -23,7 +23,8 @@ pizza = {
     "http://photos.vanityfair.com/2015/01/30/54cc003d0a5930502f5f2cab_image.jpg#.png",
     "http://moneymamba.com/wp-content/uploads/2011/02/JeffBezos.png#.png",
     "http://www.teknorazzi.com/wp-content/uploads/2009/10/no-kindle-for-you-jeff-bezos.jpg#.png",
-    "https://pbs.twimg.com/media/CDTamKEWYAADyT5.jpg:large"
+    "https://pbs.twimg.com/media/CDTamKEWYAADyT5.jpg:large",
+    "http://media.salon.com/2011/12/jeff-bezos.jpg"
   ],
   #Star Wars... Put it in the pizza.
   "Ackbar": [
@@ -233,7 +234,7 @@ module.exports = (robot) ->
     images = sample(pizza[group], count)
     msg.send "Here's some " + group + "...\n" + images.join("\n")
 
-# To be used after April Fools (maybe)...
+
 module.exports = (robot) ->
   robot.respond /bezos bomb( (\d+))?/i, (msg) ->
     count = msg.match[2] || 3
