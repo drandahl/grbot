@@ -24,7 +24,12 @@ pizza = {
     "http://moneymamba.com/wp-content/uploads/2011/02/JeffBezos.png#.png",
     "http://www.teknorazzi.com/wp-content/uploads/2009/10/no-kindle-for-you-jeff-bezos.jpg#.png",
     "https://pbs.twimg.com/media/CDTamKEWYAADyT5.jpg:large",
-    "http://media.salon.com/2011/12/jeff-bezos.jpg"
+    "http://media.salon.com/2011/12/jeff-bezos.jpg",
+    ":laugh4: :laugh: :laugh4: :laugh: :laugh4: :laugh: :laugh4:",
+    ":laugh: :laugh2: :laugh: :laugh2: :laugh: :laugh2: :laugh:",
+    ":laugh3: :areyouseriousrightnowbro: :laugh3: :areyouseriousrightnowbro: :laugh3: :areyouseriousrightnowbro: :laugh3:",
+    ":laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh:",
+    ":areyouseriousrightnowbro:"
   ],
   #Star Wars... Put it in the pizza.
   "Ackbar": [
