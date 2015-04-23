@@ -23,6 +23,7 @@ pizza = {
     "http://photos.vanityfair.com/2015/01/30/54cc003d0a5930502f5f2cab_image.jpg#.png",
     "http://moneymamba.com/wp-content/uploads/2011/02/JeffBezos.png#.png",
     "http://www.teknorazzi.com/wp-content/uploads/2009/10/no-kindle-for-you-jeff-bezos.jpg#.png",
+    "https://pbs.twimg.com/media/CDTamKEWYAADyT5.jpg:large"
   ],
   #Star Wars... Put it in the pizza.
   "Ackbar": [
