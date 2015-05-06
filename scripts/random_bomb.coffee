@@ -30,7 +30,11 @@ pizza = {
     ":laugh: :laugh2: :laugh: :laugh2: :laugh: :laugh2: :laugh:",
     ":laugh3: :areyouseriousrightnowbro: :laugh3: :areyouseriousrightnowbro: :laugh3: :areyouseriousrightnowbro: :laugh3:",
     ":laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh::laugh:",
-    ":areyouseriousrightnowbro:"
+    ":areyouseriousrightnowbro:",
+    "https://thenarcissisticanthropologist.files.wordpress.com/2012/10/mrclean_cs_mrclean_logo.png",
+    "http://www.entertainmentbuddha.com/blog/wp-content/uploads/2012/06/Burns.gif",
+    "http://i.dailymail.co.uk/i/pix/2014/08/18/article-2727557-209B46CF00000578-545_634x423.jpg",
+    "http://static4.businessinsider.com/image/531095ff6da8113f5f6e5f2d-480/jeff-bezos-amazon-ceo-portrait-illustration.jpg"
   ],
   #Star Wars... Put it in the pizza.
   "Ackbar": [
@@ -63,7 +67,14 @@ pizza = {
     "http://i.imgur.com/SVM5X8p.jpg",
     "http://i.imgur.com/psrvYFA.gif",
     "http://www.supernaturalwiki.com/images/3/38/Star_Trek_cast.jpg",
-    "http://www.norvillerogers.com/wp-content/uploads/2014/09/2055-star-trek-wallpaper-1920x1080-wallpaper-5716.jpg"
+    "http://www.norvillerogers.com/wp-content/uploads/2014/09/2055-star-trek-wallpaper-1920x1080-wallpaper-5716.jpg",
+    "http://www.eelanmedia.com/wp-content/uploads/2014/02/captain.jpg",
+    "http://www.vitamin-ha.com/wp-content/uploads/2013/06/Funny-Star-Trek-10.jpg",
+    "http://www.dumpaday.com/wp-content/uploads/2012/12/awkward-funny-star-trek-pictures.jpg",
+    "http://www.baconwrappedmedia.com/wp-content/uploads/2012/07/funny-star-trek.jpg",
+    "http://www.thenug.com/sites/default/pub/071813/thenug-LORwyKEe9E.jpg",
+    "http://www.dumpaday.com/wp-content/uploads/2013/01/the-walking-dead-funny-star-trek.jpg",
+    "http://iruntheinternet.com/lulzdump/images/startrek-dangerous-go-alone-redshirt-1348791892yf.jpg"
   ],
   #Doctor Who... Put it in the pizza.
   "time lords": [
@@ -78,7 +89,10 @@ pizza = {
     "http://images.amcnetworks.com/bbcamerica.com/wp-content/blogs.dir/55/files/2013/09/ninthdoctor.jpg",
     "http://images4.fanpop.com/image/photos/22500000/The-Tenth-Doctor-doctor-who-22518049-800-600.png",
     "http://img1.wikia.nocookie.net/__cb20120420000432/tardis/images/3/3e/Eleventh_doc_main_img.jpg",
-    "http://images6.fanpop.com/image/photos/36100000/The-Twelfth-Doctor-image-the-twelfth-doctor-36103732-500-643.jpg"
+    "http://images6.fanpop.com/image/photos/36100000/The-Twelfth-Doctor-image-the-twelfth-doctor-36103732-500-643.jpg",
+    "http://www.bbc.co.uk/doctorwho/medialibrary/images/1024/s4_12_wal_07.jpg?size=1024&promo=/doctorwho/medialibrary/images/main-promo/s4_12_wal_07.jpg&purpose=Computer%20wallpaper&summary=The%20Supreme%20Dalek%20and%20his%20troops.&info=&tag_file_id=s4_12_wal_07",
+    "http://fc07.deviantart.net/fs42/i/2009/078/c/4/Dalek_on_Duty_by_pippin1178.jpg",
+
   ],
   #Jurrassic Park... Put it in the pizza.
   "dinosaurs": [
@@ -86,7 +100,9 @@ pizza = {
     "http://www.underthegunreview.net/wp-content/uploads/2012/06/jurassic-park-4.png",
     "https://bethmatthewsbooks.files.wordpress.com/2014/08/blog-3.jpg",
     "http://cdn.screenrant.com/wp-content/uploads/Jurassic-Park-3-Raptors.jpg",
-    "http://i.imgur.com/E08xU.png"
+    "http://i.imgur.com/E08xU.png",
+    "http://cdn1.sciencefiction.com/wp-content/uploads/2013/10/jurassicpark4148.jpg",
+    "http://i.imgur.com/btI7IS2.jpg"
   ],
   #HP... Put it in the pizza.
   "wizards": [
@@ -124,6 +140,9 @@ pizza = {
     "http://media.dcentertainment.com/sites/default/files/GalleryChar_1920x1080_BM_Cv38_54b5d0d1ada864.04916624.jpg",
     "http://hotdigitalnews.com/wp-content/uploads/2013/09/batman_2.jpg",
     "http://www.wildsound-filmmaking-feedback-events.com/images/batman_pow_bam.jpg",
+    "http://fc05.deviantart.net/fs70/i/2009/363/5/d/batman_VS_superman_high_res_by_westwolf270.jpg",
+    "http://chaddickersonenglish12.weebly.com/uploads/1/3/7/8/13786540/717316_orig.jpg?0",
+
   ],
   #Zombies... Put it in the pizza.
   "zombies": [
@@ -165,7 +184,8 @@ pizza = {
   "paranormal teen romance": [
     "http://rack.1.mshcdn.com/media/ZgkyMDEyLzEyLzA0L2I1L3R3aWxpZ2h0c291LmJUMi5qcGcKcAl0aHVtYgkxMjAweDYyNyMKZQlqcGc/ecb1e092/6e5/-twilight-soundtrack-debuts-tomorrow-morning-on-myspace-b3e70d39df.jpg",
     "http://public.media.smithsonianmag.com/legacy_blog/dracula-2.jpg",
-    "http://www.chicagonow.com/acrimonious-clown/files/2015/01/the-vampire-diaries-201.jpg"
+    "http://www.chicagonow.com/acrimonious-clown/files/2015/01/the-vampire-diaries-201.jpg",
+    "http://www.slj.com/wp-content/uploads/2012/08/SLJ1209w_Paranormal.jpg"
   ],
   #Friendship... Put it in the pizza.
   "ponies": [
@@ -179,7 +199,6 @@ pizza = {
     "http://www.fimfiction-static.net/images/story_images/102567.png?1368037960",
     "http://fc00.deviantart.net/fs70/i/2011/337/7/f/weekly_vector_7__party_cannon_by_gratlofatic-d4i38os.png",
     "https://derpicdn.net/img/view/2013/3/17/272920__safe_applejack_photo_edit_irl_ponies+in+real+life_realistic_horse_fence_real.png",
-    "http://th02.deviantart.net/fs70/PRE/f/2014/024/8/5/derpy_hooves_by_zacatron94-d73lulp.png",
     "http://www.gameinformer.com/cfs-filesystemfile.ashx/__key/CommunityServer-Components-PostAttachments/00-01-30-56-31/Link-Derpy.png_2D00_500x400.png"
   ],
   #Matrix... put it in the pizza.
@@ -188,6 +207,7 @@ pizza = {
     "http://theawesomedaily.theawesomedaily.netdna-cdn.com/wp-content/uploads/2015/03/1413474840_Matrix-Wallpapers.jpg",
     "http://i.huffpost.com/gen/799955/images/o-THE-MATRIX-AND-HINDUISM-facebook.jpg",
     "http://vignette2.wikia.nocookie.net/matrix/images/d/df/Thematrixincode99.jpg/revision/latest?cb=20140425045724",
+    "http://static.guim.co.uk/sys-images/Film/Pix/pictures/2008/06/06/matrix460.jpg"
   ],
   #Simpsons... Put it in the pizza.
   "Simpsons": [
@@ -201,17 +221,20 @@ pizza = {
   "jazz": [
     "http://upload.wikimedia.org/wikipedia/commons/0/0e/Louis_Armstrong_restored.jpg",
     "http://www.localnomad.com/en/blog/wp-content/uploads/2013/10/jazz-notes.jpg",
-    "http://www.thejazzsession.com/wp-content/uploads/2010/05/jazz_standard.jpg"
+    "http://www.thejazzsession.com/wp-content/uploads/2010/05/jazz_standard.jpg",
+    "http://take5jazzandblues.com/wp-content/uploads/2014/07/jazz1.png"
   ],
   "rock": [
     "http://topwalls.net/wp-content/uploads/2012/02/hard-rock-music-guitar.jpg",
     "http://i.kinja-img.com/gawker-media/image/upload/s--t_R9qLoc--/c_fit,fl_progressive,q_80,w_636/770815643221531569.jpg",
-    "http://news.bbcimg.co.uk/media/images/59575000/jpg/_59575151_dsc_0622.jpg-version2.jpg"
+    "http://news.bbcimg.co.uk/media/images/59575000/jpg/_59575151_dsc_0622.jpg-version2.jpg",
+    "http://cache.lego.com/r/catalogs/-/media/franchises/minifigures%202014/characters/series%2012/71007_detail_rockstar.jpg?l.r=1110555369"
   ],
   "piano": [
     "http://beckerspianotuning.webs.com/Piano%20keys%20with%20hand.jpg",
     "http://www.fortepianolessons.com/p6.jpg",
-    "http://johncavacas.com/wp-content/uploads/2012/05/Piano-player-on-Saint-Germain.jpg"
+    "http://johncavacas.com/wp-content/uploads/2012/05/Piano-player-on-Saint-Germain.jpg",
+    "http://cl.jroo.me/z3/w/9/_/d/a.baa-Epic-Piano-Player.jpg"
   ]
 }
 
