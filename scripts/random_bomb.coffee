@@ -34,7 +34,8 @@ pizza = {
     "https://thenarcissisticanthropologist.files.wordpress.com/2012/10/mrclean_cs_mrclean_logo.png",
     "http://www.entertainmentbuddha.com/blog/wp-content/uploads/2012/06/Burns.gif",
     "http://i.dailymail.co.uk/i/pix/2014/08/18/article-2727557-209B46CF00000578-545_634x423.jpg",
-    "http://static4.businessinsider.com/image/531095ff6da8113f5f6e5f2d-480/jeff-bezos-amazon-ceo-portrait-illustration.jpg"
+    "http://static4.businessinsider.com/image/531095ff6da8113f5f6e5f2d-480/jeff-bezos-amazon-ceo-portrait-illustration.jpg",
+    ":laugh99: :laugh99: :laugh99: :laugh99: :laugh99: :laugh99: :laugh99: :laugh99: :laugh99:"
   ],
   #Star Wars... Put it in the pizza.
   "Ackbar": [
@@ -142,7 +143,6 @@ pizza = {
     "http://www.wildsound-filmmaking-feedback-events.com/images/batman_pow_bam.jpg",
     "http://fc05.deviantart.net/fs70/i/2009/363/5/d/batman_VS_superman_high_res_by_westwolf270.jpg",
     "http://chaddickersonenglish12.weebly.com/uploads/1/3/7/8/13786540/717316_orig.jpg?0",
-
   ],
   #Zombies... Put it in the pizza.
   "zombies": [
