@@ -1,21 +1,29 @@
 # Description:
 #   Get some random images under a random topic.
-#   To be used after April Fools (maybe)...
+#   Used to be an April Fools joke, giving random bomb instead of pug/corgi
 #
 # Commands:
-#   hubot random bomb <number> - Random images. Maybe used after April Fools.
-#   hubot <type> bomb <number> - Random images of <type>. Maybe used after April Fools.
+#   hubot random bomb <number> - Random images.
+#   hubot <type> bomb <number> - Random images of <type>.
+
+#------------------------------------------------------------------------------
 
 # Feel free to add to or change things in the pizza and submit a pull request!
 
-# TODO: Write topic balancer to sample from full set of uncurated toppings
-# TODO: Push curated data into external service
+#------------------------------------------------------------------------------
+
+# TODO: Clean all this up. It's still in a semi-hack state right now.
+# TODO: Write topic balancer to sample from full set of uncurated toppings.
+# TODO: Push curated data into external service.
+
+#------------------------------------------------------------------------------
 
 pluralize = require('pluralize')
 
 module.exports = (robot) ->
 
 #------------------------------------------------------------------------------
+
   # Shuffled queue of toppings, rebuilt from pizza and uncurated_pizza when
   # completely consumed.
   random_pizza = []
@@ -366,7 +374,7 @@ module.exports = (robot) ->
       ]
     },
     {
-      #Friendship... Put it in the pizza.
+      #Friendship... Put it in the pizza. Shhhh! :P
       "search_pattern": /pony|friendship/i,
       "plural_display_name":  "ponies",
       "curated": true,
