@@ -22,16 +22,12 @@ module.exports = (robot) ->
 
 #------------------------------------------------------------------------------
   robot.respond /(.*) bomb( (\d+))?/i, (msg) ->
-    msg.send "random_pizza.length = " + random_pizza.length
     query = msg.match[1]
     if other_bombs.test(query)
       return
 
     if /random/i.test(query)
       topping = random_topping()
-      # if random_pizza.length == 0
-      #   random_pizza = shuffle(pizza.concat(uncurated_pizza))
-      # topping = random_pizza.pop()
     else
       topping = topping_for_query(query)
 
@@ -452,9 +448,7 @@ module.exports = (robot) ->
     }
   ]
 
-#------------------------------------------------------------------------------
-
-  # TODO: Write topic balancer to sample from full set
+#-----------------------------------------------------------------------------
 
   # Some uncurated toppings to fill out random bomb
   uncurated_pizza_pluralizable = [
