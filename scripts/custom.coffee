@@ -13,6 +13,9 @@ module.exports = (robot) ->
   robot.hear /release/i, (msg) ->
     msg.send "༼ つ ◕_◕ ༽つ༄"
 
+  robot.hear /(thanks|thank you).*grbot/i, (msg) ->
+    msg.send "#yourewelcome"
+
   robot.respond /who is in charge\?/i, (msg) ->
     msg.send "@djackson"
-    
+
