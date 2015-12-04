@@ -18,6 +18,10 @@
 
 #------------------------------------------------------------------------------
 
+giphy =
+  api_key: process.env.HUBOT_GIPHY_API_KEY
+  base_url: 'http://api.giphy.com/v1'
+
 pluralize = require('pluralize')
 
 module.exports = (robot) ->
@@ -75,7 +79,7 @@ module.exports = (robot) ->
       images = sample(topping["items"], count)
       msg.send images.join("\n")
     else
-      imageMe msg, topping["original_query"], count, (url) ->
+      giphyMe msg, topping["original_query"], count, (url) ->
         msg.send url
 
   header_text = (pluralized_topping) ->
@@ -93,6 +97,31 @@ module.exports = (robot) ->
           images  = sample(images, count)
           for image in images
             cb "#{image.unescapedUrl}#.png"
+
+  # Shamelessly copied from giphy.coffee and reworked
+  giphyMe = (msg, query, count, cb) ->
+    endpoint = '/gifs/search'
+    url = "#{giphy.base_url}#{endpoint}"
+
+    msg.http(url)
+      .query
+        q: query
+        api_key: giphy.api_key
+      .get() (err, res, body) ->
+        response = undefined
+        try
+          response = JSON.parse(body)
+          images = response.data
+          if images.length > 0
+            images = sample(images, count)
+            for image in images
+              cb image.images.original.url
+
+        catch e
+          response = undefined
+          cb 'Error'
+
+        return if response is undefined
 
 #------------------------------------------------------------------------------
 
