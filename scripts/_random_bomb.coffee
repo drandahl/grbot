@@ -402,25 +402,26 @@ module.exports = (robot) ->
         "http://www.slj.com/wp-content/uploads/2012/08/SLJ1209w_Paranormal.jpg"
       ]
     },
-    {
-      #Friendship... Put it in the pizza. Shhhh! :P
-      "search_pattern": /pony|friendship/i,
-      "plural_display_name":  "ponies",
-      "curated": true,
-      "items": [
-        "https://lh3.googleusercontent.com/-a1PMXvONOgs/VLzuAxQTzQI/AAAAAAAB6QY/uLduGHdk-mc/s1600/mylittlehumans.png",
-        "http://i.imgur.com/7GPEbkN.png",
-        "http://i.imgur.com/PwHRc.gif",
-        "http://i0.kym-cdn.com/photos/images/newsfeed/000/193/709/Jesus_Christ_how_horrifying-(n1308183251036).png?1320087196",
-        "http://4.bp.blogspot.com/-nAd7on1JI-Q/TpwDSB9OaXI/AAAAAAAAAD0/e_HNBhIJe9U/s1600/50831+-+artist-tess+monitor_punch+twilight_sparkle.jpg",
-        "http://i.imgur.com/5qauBpT.png",
-        "https://derpicdn.net/img/view/2014/10/2/734198__safe_rarity_applejack_rarijack_eating_popcorn_artist-colon-bitz.png",
-        "http://www.fimfiction-static.net/images/story_images/102567.png?1368037960",
-        "http://fc00.deviantart.net/fs70/i/2011/337/7/f/weekly_vector_7__party_cannon_by_gratlofatic-d4i38os.png",
-        "https://derpicdn.net/img/view/2013/3/17/272920__safe_applejack_photo_edit_irl_ponies+in+real+life_realistic_horse_fence_real.png",
-        "http://www.gameinformer.com/cfs-filesystemfile.ashx/__key/CommunityServer-Components-PostAttachments/00-01-30-56-31/Link-Derpy.png_2D00_500x400.png"
-      ]
-    },
+    # Note: I blame Ballmer peak
+    # {
+    #   #Friendship... Put it in the pizza. Shhhh! :P
+    #   "search_pattern": /pony|friendship/i,
+    #   "plural_display_name":  "ponies",
+    #   "curated": true,
+    #   "items": [
+    #     "https://lh3.googleusercontent.com/-a1PMXvONOgs/VLzuAxQTzQI/AAAAAAAB6QY/uLduGHdk-mc/s1600/mylittlehumans.png",
+    #     "http://i.imgur.com/7GPEbkN.png",
+    #     "http://i.imgur.com/PwHRc.gif",
+    #     "http://i0.kym-cdn.com/photos/images/newsfeed/000/193/709/Jesus_Christ_how_horrifying-(n1308183251036).png?1320087196",
+    #     "http://4.bp.blogspot.com/-nAd7on1JI-Q/TpwDSB9OaXI/AAAAAAAAAD0/e_HNBhIJe9U/s1600/50831+-+artist-tess+monitor_punch+twilight_sparkle.jpg",
+    #     "http://i.imgur.com/5qauBpT.png",
+    #     "https://derpicdn.net/img/view/2014/10/2/734198__safe_rarity_applejack_rarijack_eating_popcorn_artist-colon-bitz.png",
+    #     "https://eqbeats.org/track/8101/art",
+    #     "http://fc00.deviantart.net/fs70/i/2011/337/7/f/weekly_vector_7__party_cannon_by_gratlofatic-d4i38os.png",
+    #     "https://derpicdn.net/img/view/2013/3/17/272920__safe_applejack_photo_edit_irl_ponies+in+real+life_realistic_horse_fence_real.png",
+    #     "http://www.gameinformer.com/cfs-filesystemfile.ashx/__key/CommunityServer-Components-PostAttachments/00-01-30-56-31/Link-Derpy.png_2D00_500x400.png"
+    #   ]
+    # },
     {
       #Matrix... Put it in the pizza.
       "search_pattern": /matrix/i,
