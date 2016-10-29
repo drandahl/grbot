@@ -41,7 +41,10 @@ module.exports = (robot) ->
     if /random/i.test(query)
       topping = random_topping()
     else
-      topping = topping_for_query(query)
+      ## This feature got annoying... for example, "grbot whoops bomb" brought up
+      ## Doctor who images.
+      # topping = topping_for_query(query)
+      topping = uncurated_topping_for_query(query)
 
     count = Math.min((msg.match[3] || 3), 3)
     send_messages_for_topping(msg, topping, count)
